@@ -95,8 +95,12 @@ body {
 }
 
 .rate__price ion-icon {
-    color: rgba(255, 255, 0, 0.726);
+    color: orange;
     font-size: 1em;
+}
+
+.rate__price ion-icon[name="star-sharp"] {
+    color: #000;
 }
 
 .rate__price .price {
