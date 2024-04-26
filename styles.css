@@ -141,25 +141,21 @@ body {
     justify-content: center;
     width: 30px;
     height: 30px;
-    border: 2px solid #c4c4c4;
+    border: 1px solid #c4c4c4;
     padding: 5px;
     border-radius: 50%;
-    box-shadow: 0 0 4px 1px #0005;
+    box-shadow: 0 0 4px 2px #0002;
     transition: all .4s ease-in-out;
     cursor: pointer;
 }
 
 .bottons .icon:hover {
-    border: 1px solid #0003;
+    border: 1px solid #0004;
+    transform: scale(1.1);
+    color: #000;
 }
 
 .bottons .icon ion-icon {
     color: #000000a8;
     font-size: 20px;
-    transition: all .3s ease-in-out;
-}
-
-.bottons .icon ion-icon:hover {
-    scale: 1.1;
-    color: #000000;
 }
