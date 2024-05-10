@@ -20,7 +20,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
     flex-wrap: wrap;
     width: 90%;
     margin: 4vh auto;
@@ -43,6 +43,7 @@ body {
 
 .products:hover {
     border: 1px solid #0007;
+    background-color: #f1f1f1;
 }
 
 .products .image {
